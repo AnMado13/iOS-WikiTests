@@ -345,6 +345,7 @@
 		53A575FB2602C845009835E6 /* WMFAppViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A575F92602C845009835E6 /* WMFAppViewController+Extensions.swift */; };
 		53A575FC2602C845009835E6 /* WMFAppViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A575F92602C845009835E6 /* WMFAppViewController+Extensions.swift */; };
 		53A575FD2602C845009835E6 /* WMFAppViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A575F92602C845009835E6 /* WMFAppViewController+Extensions.swift */; };
+		579D22A6284975D700D7AB33 /* FintechWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D22A5284975D700D7AB33 /* FintechWikiTests.swift */; };
 		670063AF22540AC500E4CE3B /* SectionEditorFindAndReplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670063AE22540AC500E4CE3B /* SectionEditorFindAndReplaceTests.swift */; };
 		67059DB52260D034009811AA /* SchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67059DB42260D034009811AA /* SchemeHandler.swift */; };
 		67059DB62260D619009811AA /* SchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67059DB42260D034009811AA /* SchemeHandler.swift */; };
@@ -1984,8 +1985,6 @@
 		B0524B76214856A400D8FD8D /* UIViewController+DescriptionWelcomeStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0524B74214856A400D8FD8D /* UIViewController+DescriptionWelcomeStoryboard.swift */; };
 		B0524B77214856A400D8FD8D /* UIViewController+DescriptionWelcomeStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0524B74214856A400D8FD8D /* UIViewController+DescriptionWelcomeStoryboard.swift */; };
 		B0524B78214856A400D8FD8D /* UIViewController+DescriptionWelcomeStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0524B74214856A400D8FD8D /* UIViewController+DescriptionWelcomeStoryboard.swift */; };
-		B0606EB120AA6FF0006EC6B9 /* SnapshotRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0606EB020AA6FF0006EC6B9 /* SnapshotRecorderTests.swift */; };
-		B0606EC520AA955C006EC6B9 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0606EC420AA955B006EC6B9 /* SnapshotHelper.swift */; };
 		B066F0D51E513DAA00A199F8 /* UIViewController+WMFHideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066F0D41E513DAA00A199F8 /* UIViewController+WMFHideKeyboard.swift */; };
 		B068EDE0206B183500C827D1 /* Progress+ProgressUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B068EDDF206B183500C827D1 /* Progress+ProgressUI.swift */; };
 		B068EDE1206B183500C827D1 /* Progress+ProgressUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B068EDDF206B183500C827D1 /* Progress+ProgressUI.swift */; };
@@ -2063,7 +2062,6 @@
 		B0BCF0BA202537D800986F72 /* Panels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BCF0B8202537D800986F72 /* Panels.swift */; };
 		B0BCF0BB202537D800986F72 /* Panels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BCF0B8202537D800986F72 /* Panels.swift */; };
 		B0BCF0BC202537D800986F72 /* Panels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BCF0B8202537D800986F72 /* Panels.swift */; };
-		B0BDA58220B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BDA58120B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift */; };
 		B0C06B9F218240CA00E481CC /* Collection+AsyncMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C06B9E218240CA00E481CC /* Collection+AsyncMapTests.swift */; };
 		B0C17B9321FAB048009ED5C3 /* AbuseFilterAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C17B9221FAB048009ED5C3 /* AbuseFilterAlertView.xib */; };
 		B0C17B9421FAB048009ED5C3 /* AbuseFilterAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0C17B9221FAB048009ED5C3 /* AbuseFilterAlertView.xib */; };
@@ -3925,6 +3923,7 @@
 		535F16D525CE11A300875AAD /* MWKDataStore+LanguageVariantMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MWKDataStore+LanguageVariantMigration.swift"; sourceTree = "<group>"; };
 		53A575F92602C845009835E6 /* WMFAppViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WMFAppViewController+Extensions.swift"; sourceTree = "<group>"; };
 		53BAB79925DDDEE100A5ED4E /* Wikipedia 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Wikipedia 6.xcdatamodel"; sourceTree = "<group>"; };
+		579D22A5284975D700D7AB33 /* FintechWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechWikiTests.swift; sourceTree = "<group>"; };
 		670063AE22540AC500E4CE3B /* SectionEditorFindAndReplaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionEditorFindAndReplaceTests.swift; sourceTree = "<group>"; };
 		67059DB42260D034009811AA /* SchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeHandler.swift; sourceTree = "<group>"; };
 		6706A21622925FD2004774E2 /* InfoBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBannerView.swift; sourceTree = "<group>"; };
@@ -4528,9 +4527,7 @@
 		B0524B19214854E900D8FD8D /* DescriptionWelcomeContentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionWelcomeContentsViewController.swift; sourceTree = "<group>"; };
 		B0524B74214856A400D8FD8D /* UIViewController+DescriptionWelcomeStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+DescriptionWelcomeStoryboard.swift"; sourceTree = "<group>"; };
 		B0606EAE20AA6FF0006EC6B9 /* WikipediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikipediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0606EB020AA6FF0006EC6B9 /* SnapshotRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotRecorderTests.swift; sourceTree = "<group>"; };
 		B0606EB220AA6FF0006EC6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0606EC420AA955B006EC6B9 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		B066F0D11E4F00B100A199F8 /* WMFKeychainCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WMFKeychainCredentials.swift; path = Wikipedia/Code/WMFKeychainCredentials.swift; sourceTree = SOURCE_ROOT; };
 		B066F0D41E513DAA00A199F8 /* UIViewController+WMFHideKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+WMFHideKeyboard.swift"; path = "Wikipedia/Code/UIViewController+WMFHideKeyboard.swift"; sourceTree = SOURCE_ROOT; };
 		B068EDDF206B183500C827D1 /* Progress+ProgressUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Progress+ProgressUI.swift"; sourceTree = "<group>"; };
@@ -4581,7 +4578,6 @@
 		B0B4CF0B1CC0501B0051DF7A /* WMFArticleLanguagesSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMFArticleLanguagesSectionHeader.xib; sourceTree = "<group>"; };
 		B0BCF0AA2023AC7700986F72 /* ScrollableEducationPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableEducationPanelViewController.swift; sourceTree = "<group>"; };
 		B0BCF0B8202537D800986F72 /* Panels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panels.swift; sourceTree = "<group>"; };
-		B0BDA58120B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+SnapshotUtilities.swift"; sourceTree = "<group>"; };
 		B0C06B9E218240CA00E481CC /* Collection+AsyncMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+AsyncMapTests.swift"; sourceTree = "<group>"; };
 		B0C17B9221FAB048009ED5C3 /* AbuseFilterAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AbuseFilterAlertView.xib; sourceTree = "<group>"; };
 		B0C17B9821FAB060009ED5C3 /* AbuseFilterAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbuseFilterAlertView.swift; sourceTree = "<group>"; };
@@ -7728,9 +7724,7 @@
 		B0606EAF20AA6FF0006EC6B9 /* WikipediaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B0606EB020AA6FF0006EC6B9 /* SnapshotRecorderTests.swift */,
-				B0606EC420AA955B006EC6B9 /* SnapshotHelper.swift */,
-				B0BDA58120B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift */,
+				579D22A5284975D700D7AB33 /* FintechWikiTests.swift */,
 				B0606EB220AA6FF0006EC6B9 /* Info.plist */,
 			);
 			path = WikipediaUITests;
@@ -10877,9 +10871,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0606EB120AA6FF0006EC6B9 /* SnapshotRecorderTests.swift in Sources */,
-				B0606EC520AA955C006EC6B9 /* SnapshotHelper.swift in Sources */,
-				B0BDA58220B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift in Sources */,
+				579D22A6284975D700D7AB33 /* FintechWikiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
