@@ -11,10 +11,12 @@ class 	FintechWikiTests: XCTestCase {
         
     }
     
-    func testExample(){
-        let button = app.buttons.firstMatch
-        button.waitForExistence(timeout: 10)
-        button.tap()
-    
+    func testScreenSwitching(){
+        let buttonFeed = app.tabBars["Панель вкладок"].buttons["Лента"]
+        buttonFeed.tap()
+        let buttonAllTopArticles = app.collectionViews.buttons["Все самые читаемые статьи"]
+        buttonAllTopArticles.tap()
+        let buttonClose = app.buttons["Закрыть"]
+        XCTAssertTrue(buttonClose.exists)
     }
 }
