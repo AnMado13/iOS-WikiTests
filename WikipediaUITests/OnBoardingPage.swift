@@ -11,8 +11,6 @@ class OnBoardingPage {
     func doSkip() {
         if buttonSkip.waitForExistence(timeout: 5){
             buttonSkip.tap()
-        } else {
-            XCTFail("Кнопка \"Пропустить\" не была найдена")
         }
     }
     

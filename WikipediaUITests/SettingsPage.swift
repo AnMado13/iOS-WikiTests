@@ -19,9 +19,10 @@ class SettingsPage {
     }
     
     func tapAbout() {
-        while !cellAbout.exists {
-            app.swipeUp()
+        if cellAbout.waitForExistence(timeout: 5){
+            cellAbout.tap()
+        } else {
+            XCTFail("Не удалось найти кнопку \"О приложении\"")
         }
-        cellAbout.tap()
     }
 }

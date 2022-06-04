@@ -9,10 +9,10 @@ class TabBar {
     }
     
     func tapFeed(){
-        if buttonFeed.waitForExistence(timeout: 10) {
+        if buttonFeed.waitForExistence(timeout: 5) {
             buttonFeed.tap()
         } else{
-            XCTFail("Раздел \"Лента\" не был найден, его не удалось открыть")
+            XCTFail("Раздел \"Лента\" не был найден")
         }
     }
     

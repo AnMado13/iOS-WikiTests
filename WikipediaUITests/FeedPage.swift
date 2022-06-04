@@ -12,14 +12,19 @@ class FeedPage {
     
     
     func tapAllTopArticles(){
-        while !buttonAllTopArticles.exists {
-            app.swipeUp()
+        if buttonAllTopArticles.waitForExistence(timeout: 5){
+            buttonAllTopArticles.tap()
+        } else {
+            XCTFail("Не удалось найти кнопку \"Все самые читаемые статьи\"")
         }
-        buttonAllTopArticles.tap()
     }
     
     func tapSettings(){
-        buttonSettings.tap()
+        if buttonSettings.waitForExistence(timeout: 5) {
+            buttonSettings.tap()
+        } else {
+            XCTFail("Не удалось найти кнопку \"Настройки\"")
+        }
     }
     
 }

@@ -7,9 +7,7 @@ class 	FintechWikiTests: XCTestCase {
     
     override func setUp() {
         app.launch()
-        if OnBoardingPage().buttonSkip.exists {
-            OnBoardingPage().doSkip()
-        }
+        OnBoardingPage().doSkip()
         TabBar().tapFeed()
     }
     
@@ -21,12 +19,12 @@ class 	FintechWikiTests: XCTestCase {
     
     func testSwitchScreen(){
         FeedPage().tapAllTopArticles()
-        XCTAssertTrue(TopArticlesPage().buttonClose.exists)
+        XCTAssertTrue(TopArticlesPage().buttonClose.waitForExistence(timeout: 5))
     }
     
     func testOpenBrowserWindow() {
         FeedPage().tapSettings()
         SettingsPage().tapDonate()
-        XCTAssertTrue(browser.wait(for: .runningForeground, timeout: 3))
+        XCTAssertTrue(browser.wait(for: .runningForeground, timeout: 5))
     }
 }
