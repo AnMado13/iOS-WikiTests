@@ -345,6 +345,13 @@
 		53A575FB2602C845009835E6 /* WMFAppViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A575F92602C845009835E6 /* WMFAppViewController+Extensions.swift */; };
 		53A575FC2602C845009835E6 /* WMFAppViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A575F92602C845009835E6 /* WMFAppViewController+Extensions.swift */; };
 		53A575FD2602C845009835E6 /* WMFAppViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A575F92602C845009835E6 /* WMFAppViewController+Extensions.swift */; };
+		57895F00284AC82500D07B62 /* Springboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57895EFF284AC82500D07B62 /* Springboard.swift */; };
+		57895F03284AD86B00D07B62 /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57895F02284AD86B00D07B62 /* OnBoardingPage.swift */; };
+		57895F05284ADDAF00D07B62 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57895F04284ADDAF00D07B62 /* TabBar.swift */; };
+		57895F07284ADF6D00D07B62 /* FeedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57895F06284ADF6D00D07B62 /* FeedPage.swift */; };
+		57895F0B284AE85B00D07B62 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57895F0A284AE85B00D07B62 /* SettingsPage.swift */; };
+		57895F0D284AEA0E00D07B62 /* FintechWikiTests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57895F0C284AEA0E00D07B62 /* FintechWikiTests2.swift */; };
+		57895F0F284AF12700D07B62 /* AboutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57895F0E284AF12700D07B62 /* AboutPage.swift */; };
 		579D22A6284975D700D7AB33 /* FintechWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D22A5284975D700D7AB33 /* FintechWikiTests.swift */; };
 		670063AF22540AC500E4CE3B /* SectionEditorFindAndReplaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670063AE22540AC500E4CE3B /* SectionEditorFindAndReplaceTests.swift */; };
 		67059DB52260D034009811AA /* SchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67059DB42260D034009811AA /* SchemeHandler.swift */; };
@@ -3923,6 +3930,13 @@
 		535F16D525CE11A300875AAD /* MWKDataStore+LanguageVariantMigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MWKDataStore+LanguageVariantMigration.swift"; sourceTree = "<group>"; };
 		53A575F92602C845009835E6 /* WMFAppViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WMFAppViewController+Extensions.swift"; sourceTree = "<group>"; };
 		53BAB79925DDDEE100A5ED4E /* Wikipedia 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Wikipedia 6.xcdatamodel"; sourceTree = "<group>"; };
+		57895EFF284AC82500D07B62 /* Springboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Springboard.swift; sourceTree = "<group>"; };
+		57895F02284AD86B00D07B62 /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
+		57895F04284ADDAF00D07B62 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		57895F06284ADF6D00D07B62 /* FeedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPage.swift; sourceTree = "<group>"; };
+		57895F0A284AE85B00D07B62 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		57895F0C284AEA0E00D07B62 /* FintechWikiTests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechWikiTests2.swift; sourceTree = "<group>"; };
+		57895F0E284AF12700D07B62 /* AboutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPage.swift; sourceTree = "<group>"; };
 		579D22A5284975D700D7AB33 /* FintechWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintechWikiTests.swift; sourceTree = "<group>"; };
 		670063AE22540AC500E4CE3B /* SectionEditorFindAndReplaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionEditorFindAndReplaceTests.swift; sourceTree = "<group>"; };
 		67059DB42260D034009811AA /* SchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemeHandler.swift; sourceTree = "<group>"; };
@@ -7725,6 +7739,13 @@
 			isa = PBXGroup;
 			children = (
 				579D22A5284975D700D7AB33 /* FintechWikiTests.swift */,
+				57895F0C284AEA0E00D07B62 /* FintechWikiTests2.swift */,
+				57895F0E284AF12700D07B62 /* AboutPage.swift */,
+				57895F0A284AE85B00D07B62 /* SettingsPage.swift */,
+				57895F06284ADF6D00D07B62 /* FeedPage.swift */,
+				57895F02284AD86B00D07B62 /* OnBoardingPage.swift */,
+				57895EFF284AC82500D07B62 /* Springboard.swift */,
+				57895F04284ADDAF00D07B62 /* TabBar.swift */,
 				B0606EB220AA6FF0006EC6B9 /* Info.plist */,
 			);
 			path = WikipediaUITests;
@@ -10872,6 +10893,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				579D22A6284975D700D7AB33 /* FintechWikiTests.swift in Sources */,
+				57895F0F284AF12700D07B62 /* AboutPage.swift in Sources */,
+				57895F03284AD86B00D07B62 /* OnBoardingPage.swift in Sources */,
+				57895F07284ADF6D00D07B62 /* FeedPage.swift in Sources */,
+				57895F0D284AEA0E00D07B62 /* FintechWikiTests2.swift in Sources */,
+				57895F00284AC82500D07B62 /* Springboard.swift in Sources */,
+				57895F0B284AE85B00D07B62 /* SettingsPage.swift in Sources */,
+				57895F05284ADDAF00D07B62 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

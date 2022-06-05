@@ -19,12 +19,18 @@ class 	FintechWikiTests: XCTestCase {
     
     func testSwitchScreen(){
         FeedPage().tapAllTopArticles()
-        XCTAssertTrue(TopArticlesPage().buttonClose.waitForExistence(timeout: 5))
+        
+        let predicate = NSPredicate(format: "label CONTAINS %@", "Самые читаемые")
+        let elementQuery = app.staticTexts.containing(predicate)
+        let expectedCountMatches = 3
+        
+        XCTAssertTrue(elementQuery.count == expectedCountMatches)
     }
     
     func testOpenBrowserWindow() {
         FeedPage().tapSettings()
         SettingsPage().tapDonate()
+        
         XCTAssertTrue(browser.wait(for: .runningForeground, timeout: 5))
     }
 }
